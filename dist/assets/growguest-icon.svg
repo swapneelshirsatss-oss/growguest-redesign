@@ -1,0 +1,8 @@
+<svg width="200" height="200" viewBox="120 85 140 140" xmlns="http://www.w3.org/2000/svg">
+  <!-- Bold Outer G Mark -->
+  <path d="M186 100 A54 54 0 1 0 220 195 L220 155 L186 155" fill="none" stroke="#12312B" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Bold Upward Growth Arrow -->
+  <path d="M150 150 L182 118 L206 142 L246 102" fill="none" stroke="#C99A2E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Arrowhead -->
+  <path d="M224 102 L246 102 L246 124" fill="none" stroke="#C99A2E" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" />
+</svg>
