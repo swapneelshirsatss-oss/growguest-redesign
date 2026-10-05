@@ -928,6 +928,34 @@ em {
   flex-grow: 1;
 }
 
+.service-ota-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.ota-tag {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 9px;
+  border-radius: var(--radius-full);
+  background: var(--linen-100);
+  color: var(--pine-900);
+  border: 1px solid var(--border-light);
+  letter-spacing: -0.01em;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.service-card:hover .ota-tag {
+  background: var(--pine-850);
+  color: var(--gold-300);
+  border-color: var(--border-gold);
+}
+
 .service-card-action {
   display: flex;
   align-items: center;
