@@ -635,6 +635,8 @@ em {
   opacity: 0.75;
   transition: opacity 0.25s, transform 0.25s;
   filter: grayscale(1);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .client-logo-item:hover {
@@ -655,6 +657,11 @@ em {
   font-weight: 600;
   color: var(--pine-800);
   letter-spacing: -0.01em;
+  transition: color 0.2s;
+}
+
+.client-logo-item:hover .client-name-fallback {
+  color: var(--gold-500);
 }
 
 /* --- 8. DIRECT BOOKING VS OTA DISPARITY SECTION --- */
